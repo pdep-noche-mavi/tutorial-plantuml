@@ -36,5 +36,9 @@ ___
 
 ## Relaciones
 
-|Relacion|Sintaxis|Representacion|
-|--------|--------|--------------|
+|Relacion|Sintaxis|Ejemplo|Representacion|
+|--------|--------|--------|--------------|
+|Herencia| --\|\> |Oficial --\|\> Soldado|<img src="hereda.png">|
+|Conocimiento| -->"multiplicidad"|Lector -->"\*" Libro|<img src="conoce.png">|
+|Implementación|..\|\>|Corsa ..\|\> Rodado|<img src="implementa.png">|
+|Dependencia|..>|paquete ..> Mensajero|<img src="depende.png">|
