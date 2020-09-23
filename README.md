@@ -28,7 +28,7 @@ ___
 |--------|:------:|:------------:|
 |Clase   |Class UnaClase {<br>unAtributo <br> unMetodo() <br>...<br>}|<img src="clase.png">|
 |Interface|Interface UnaInterface{<br>unMetodo() <br>...<br>}|<img src="interface.png">|
-|Clase abstracta|Abstract unaClaseAbstracta {<br>unAtributo <br> unMetodo() <br>...<br>}|<img src="abstract">|
+|Clase abstracta|Abstract unaClaseAbstracta {<br>unAtributo <br> unMetodo() <br>...<br>}|<img src="abstract.png">|
 |WKO|object unObjeto{<br>unAtributo <br> unMetodo() <br>...<br>}|<img src="wko.png">|
 |Método|unMetodo()|||
 |Atributo|tipo unAtributo|||
