@@ -244,4 +244,6 @@ Por último podemos ver cómo se generó todo esto en la herramienta web:
 ## Link uml terminado
 También dejamos el link del uml para poder probarlo. Solo tienen que pegarlo en contenedor que está debajo de todo y apreta el botón Submit de la esquina inferior derecha. (Puntos 4 y 5 de la explicación inicial).
 
+<img src="submit.png">
+
 http://www.plantuml.com/plantuml/png/LL2xKWCn3Epr5Iv3aGn3JoOyqb6aoD3hV88HOritiY-DuT-nENCFLzBkQjQxfvXGq-WTM8SncgV07bq62gIVZ635a-xke1VrN8SVQCftSLZG31P3uXxxYnizHhWLV2EyaYh5f9I1ua2MQJd1X75HdYSwGn3VAIt4XJHAm9cWSWi3HO4R9tHSruuwqjqOy9cw0gm-C04P1fL478gZHIVAaxLqNsIJmR_WhsClKJAKJU8vlE6LIHNDetcuRw_US4Ya7sZ9lA3dW6MjFTInHhUYIgs3ERtPxx-FhLzevQsnZVButmMqwEPmAChPRH5lYRN-s8B3Ejh6yKIX7xtx1G00
