@@ -21,9 +21,13 @@ El detalle de los items es el siguiente:
 7. Switch Layaout nos permite cambiar entre la vista normal y de pantalla dividida. 
 
 ___
-
 ## Sintaxis básico
+Antes de arrancar cualquier diagrama, tenemos que agregar esto: <br>
+@startuml
 
+'Nuestro código va aca!'
+
+@enduml
 |Elemento|Sintaxis|Representación|
 |--------|:------:|:------------:|
 |Clase   |Class UnaClase {<br>unAtributo <br> unMetodo() <br>...<br>}|<img src="clase.png">|
