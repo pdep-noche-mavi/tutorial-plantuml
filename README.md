@@ -4,12 +4,12 @@
 ## Cómo arrancar
 Entrar al [**link de la herramienta**](https://plantuml.com/es/class-diagram) y elegir algún molde de los que nos proporcionan cliqueando en **Edit Online**.
 Ejemplo: 
-<img src="edit-online.png">
+<img src="resources/edit-online.png">
 
 Al entrar vamos a tener la siguiente vista, en la que se podrán identificar varias cosas:
 - A simple vista, se ve que hay que "codear" el diagrama; tiene pinta de ser más complejo que simplemente dibujar el diagrama o utilizar lucid-chart. La realidad es que una vez conocida la sintaxis, se vuelve mucho más sencillo generar los diagramas (ya que el la herramienta la que los genera y ordena).
 
-<img src="pantalla.png">
+<img src="resources/pantalla.png">
 
 El detalle de los items es el siguiente: 
 1. Código del diagrama, será entendido por un intérprete que nos genera el diagrama del item 3.
@@ -30,10 +30,10 @@ Antes de arrancar cualquier diagrama, tenemos que agregar esto: <br>
 @enduml
 |Elemento|Sintaxis|Representación|
 |--------|:------:|:------------:|
-|Clase   |Class UnaClase {<br>unAtributo <br> unMetodo() <br>...<br>}|<img src="clase.png">|
-|Interface|Interface UnaInterface{<br>unMetodo() <br>...<br>}|<img src="interface.png">|
-|Clase abstracta|Abstract unaClaseAbstracta {<br>unAtributo <br> unMetodo() <br>...<br>}|<img src="abstract.png">|
-|WKO|object unObjeto{<br>unAtributo <br> unMetodo() <br>...<br>}|<img src="wko.png">|
+|Clase   |Class UnaClase {<br>unAtributo <br> unMetodo() <br>...<br>}|<img src="resources/clase.png">|
+|Interface|Interface UnaInterface{<br>unMetodo() <br>...<br>}|<img src="resources/interface.png">|
+|Clase abstracta|Abstract unaClaseAbstracta {<br>unAtributo <br> unMetodo() <br>...<br>}|<img src="resources/abstract.png">|
+|WKO|object unObjeto{<br>unAtributo <br> unMetodo() <br>...<br>}|<img src="resources/wko.png">|
 |Método|unMetodo()|||
 |Atributo|tipo\* unAtributo|||
 
@@ -41,16 +41,16 @@ Antes de arrancar cualquier diagrama, tenemos que agregar esto: <br>
 De hecho, podríamos poner cualquier cosa, lo importante es que para nosotros se entiende que es un atributo, y si tiene () es un mensaje.
 Un ejemplo medio "falopa" para ver que se puede poner lo que se quiera es:
 <br>
-<img src="ejemplofalopa.png"> <br>
+<img src="resources/ejemplofalopa.png"> <br>
 La idea no es poner lo que se quiera, sino algo que tenga sentido, como por ejemplo la clase de la izquierda.
 ## Relaciones
 
 |Relacion|Sintaxis|Ejemplo|Representacion|
 |--------|--------|--------|--------------|
-|Herencia| --\|\> |Oficial --\|\> Soldado|<img src="hereda.png">|
-|Conocimiento| -->"multiplicidad"|Lector -->"\*" Libro|<img src="conoce.png">|
-|Implementación|..\|\>|Corsa ..\|\> Rodado|<img src="implementa.png">|
-|Dependencia|..>|paquete ..> Mensajero|<img src="depende.png">|
+|Herencia| --\|\> |Oficial --\|\> Soldado|<img src="resources/hereda.png">|
+|Conocimiento| -->"multiplicidad"|Lector -->"\*" Libro|<img src="resources/conoce.png">|
+|Implementación|..\|\>|Corsa ..\|\> Rodado|<img src="resources/implementa.png">|
+|Dependencia|..>|paquete ..> Mensajero|<img src="resources/depende.png">|
 
 ## Ejemplo - Animales
 
@@ -193,7 +193,7 @@ aniosEnLaTierra = 200000000
 ```
 
 Esto resultaría en el siguiente diagrama:
-<br> <img src="diagrama1.png">
+<br> <img src="resources/diagrama1.png">
 
 Pará! Nos falta algo... no? Sí, las relaciones. Las vamos encarando de a poquito:
 
@@ -203,13 +203,13 @@ Pará! Nos falta algo... no? Sí, las relaciones. Las vamos encarando de a poqui
 Terrestre --|> Animal
 Volador --|> Animal
 ```
-<img src="diagrama2.png">
+<img src="resources/diagrama2.png">
 
 2. El Animal Terrestre conoce su especie
 ```plantuml
 Terrestre --> Especie
 ```
-<img src="diagrama3.png">
+<img src="resources/diagrama3.png">
 
 3. La persona sabe caminar y correr igual que el animal terrestre, por lo que tienen una interfaz en común para esos mensajes. Además, la persona usa a la bebida (o depende de ella).
 
@@ -224,26 +224,26 @@ Persona ..|> Caminante
 Persona ..> Bebida
 
 ```
-<img src="diagrama4.png">
+<img src="resources/diagrama4.png">
 
 4. El animal dudoso es un animal más, pero no sabemos si es volador o terrestre. 
 ```plantuml
 animalDudoso --|> Animal
 ```
-<img src="diagrama5.png">
+<img src="resources/diagrama5.png">
 
 Como resultado de todas estas adiciones, nos queda el siguiente diagrama. Con este damos por finalizado el ejercicio.
 
-<img src="diagramaFinal.png">
+<img src="resources/diagramaFinal.png">
 
 Por último podemos ver cómo se generó todo esto en la herramienta web:
 
-<img src="pantallaFinal.png">
+<img src="resources/pantallaFinal.png">
 
 
 ## Link uml terminado
 También dejamos el link del uml para poder probarlo. Solo tienen que pegarlo en contenedor que está debajo de todo y apreta el botón Submit de la esquina inferior derecha. (Puntos 4 y 5 de la explicación inicial).
 
-<img src="submit.png">
+<img src="resources/submit.png">
 
 http://www.plantuml.com/plantuml/png/LL2xKWCn3Epr5Iv3aGn3JoOyqb6aoD3hV88HOritiY-DuT-nENCFLzBkQjQxfvXGq-WTM8SncgV07bq62gIVZ635a-xke1VrN8SVQCftSLZG31P3uXxxYnizHhWLV2EyaYh5f9I1ua2MQJd1X75HdYSwGn3VAIt4XJHAm9cWSWi3HO4R9tHSruuwqjqOy9cw0gm-C04P1fL478gZHIVAaxLqNsIJmR_WhsClKJAKJU8vlE6LIHNDetcuRw_US4Ya7sZ9lA3dW6MjFTInHhUYIgs3ERtPxx-FhLzevQsnZVButmMqwEPmAChPRH5lYRN-s8B3Ejh6yKIX7xtx1G00
