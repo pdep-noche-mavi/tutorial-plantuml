@@ -34,7 +34,11 @@ ___
 |Atributo|tipo\* unAtributo|||
 
 \*A la hora de poner atributos podemos especificar el tipo y el acceso (private/public). En wollok no le ponemos tipo ya que es un lenguaje con tipado dinámico.
-
+De hecho, podríamos poner cualquier cosa, lo importante es que para nosotros se entiende que es un atributo, y si tiene () es un mensaje.
+Un ejemplo medio "falopa" para ver que se puede poner lo que se quiera es:
+<br>
+<img src="ejemplofalopa.png">
+La idea no es poner lo que se quiera, sino algo que tenga sentido.
 ## Relaciones
 
 |Relacion|Sintaxis|Ejemplo|Representacion|
