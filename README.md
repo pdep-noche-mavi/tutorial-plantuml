@@ -37,8 +37,8 @@ ___
 De hecho, podríamos poner cualquier cosa, lo importante es que para nosotros se entiende que es un atributo, y si tiene () es un mensaje.
 Un ejemplo medio "falopa" para ver que se puede poner lo que se quiera es:
 <br>
-<img src="ejemplofalopa.png">
-La idea no es poner lo que se quiera, sino algo que tenga sentido.
+<img src="ejemplofalopa.png"> <br>
+La idea no es poner lo que se quiera, sino algo que tenga sentido, como por ejemplo la clase de la izquierda.
 ## Relaciones
 
 |Relacion|Sintaxis|Ejemplo|Representacion|
