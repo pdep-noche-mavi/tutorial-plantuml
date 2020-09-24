@@ -238,7 +238,7 @@ Como resultado de todas estas adiciones, nos queda el siguiente diagrama. Con es
 
 Por último podemos ver cómo se generó todo esto en la herramienta web:
 
-<img src="pantallaFinal">
+<img src="pantallaFinal.png">
 
 
 ## Link uml terminado
