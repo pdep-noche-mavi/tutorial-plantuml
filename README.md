@@ -42,3 +42,8 @@ ___
 |Conocimiento| -->"multiplicidad"|Lector -->"\*" Libro|<img src="conoce.png">|
 |Implementación|..\|\>|Corsa ..\|\> Rodado|<img src="implementa.png">|
 |Dependencia|..>|paquete ..> Mensajero|<img src="depende.png">|
+
+## Ejemplo - Age of Empires
+
+Se desea modelar el comportamiento básico del Age of Empires. Conocemos Unidades militares de las que se conoce su vida, ataque y defensa. 
+
