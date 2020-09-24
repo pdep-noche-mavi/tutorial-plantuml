@@ -185,7 +185,7 @@ aniosEnLaTierra = 200000000
 ```
 
 Esto resultaría en el siguiente diagrama:
-<img src="diagrama1.png">
+<br> <img src="diagrama1.png">
 
 Pará! Nos falta algo... no? Sí, las relaciones. Las vamos encarando de a poquito:
 
