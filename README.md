@@ -7,7 +7,7 @@ Ejemplo:
 <img src="resources/edit-online.png">
 
 Al entrar vamos a tener la siguiente vista, en la que se podrán identificar varias cosas:
-- A simple vista, se ve que hay que "codear" el diagrama; tiene pinta de ser más complejo que simplemente dibujar el diagrama o utilizar lucid-chart. La realidad es que una vez conocida la sintaxis, se vuelve mucho más sencillo generar los diagramas (ya que el la herramienta la que los genera y ordena).
+- A simple vista, se ve que hay que "codear" el diagrama; tiene pinta de ser más complejo que simplemente dibujar el diagrama o utilizar lucid-chart. La realidad es que una vez conocida la sintaxis, se vuelve mucho más sencillo generar los diagramas (ya que es la herramienta la que los genera y ordena).
 
 <img src="resources/pantalla.png">
 
